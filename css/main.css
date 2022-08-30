@@ -906,6 +906,8 @@
    #services .item-boxes p{
      color: #e8ebee;
      text-align: justify;
+     hyphens: auto;
+     word-spacing: 2px;
    }
    
    #services h4{
@@ -1487,7 +1489,9 @@ background-size: cover;
      }
      #industries .table .description p {
       color: #FFF;
-      -webkit-font-smoothing: antialiased
+      -webkit-font-smoothing: antialiased;
+       hyphens: auto;
+     word-spacing: 2px;
      }
      
      #industries .table .description li {
