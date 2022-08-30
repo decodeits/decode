@@ -971,11 +971,13 @@ background-size: cover;
 
  background-size: cover;  
  }
+
  @media (max-width:768px){
   #services .item-boxes{
     min-height: 45vh;
   }
  }
+
 
  @media (min-width: 767px) {
 
@@ -1363,11 +1365,13 @@ background-size: cover;
      
       
       }
-@media (max-width:768px){
-#industries .table {
-  min-height: 55vh;
-  }
-}
+
+      @media (max-width:768px){
+        #industries .table {
+          min-height: 55vh;
+          }
+        }
+
 
 @media (min-width: 767px) {    
       
